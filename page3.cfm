@@ -19,7 +19,7 @@
                 #form.num1_form# * #form.num2_form#
                 <br>=</br>
             </p>
-            <!-- output result of multiplying two numbers-->
+            <!-- output result of multiplying two numbers -->
             <p style="font-size:40px;">
                 #result# 
             </p>
