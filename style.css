@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("bg.jpg") no-repeat fixed center;
+  background-size: cover;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 30px;
+  color: rgba(255,255,255,0.75);
+}
+.line{
+  position:static;
+  top: 50%;
+  width: 8em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden; transform: translateY(-50%);
+}
+.anim-typewriter{
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
+}
+@keyframes typewriter {
+  from{
+    width: 0;
+  }
+  to{
+    width: 9em;
+  }
+}
+@keyframes blinkTextCursor {
+  from{
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+.box{
+  width: 400px;
+  height: 300px;
+  padding: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  opacity: 0.7;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.51);
+  -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.51);
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.51);
+
+}
+.box h1{
+  color: white;
+  text-transform: up;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 100px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type="submit"]:hover{
+  background: #2ecc71;
+}
+.linkButton{
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    border: solid 2px #31A5FF;
+    margin: 20px auto;
+    border-radius: 24px;
+    padding: 14px 10px;
+    cursor: pointer;
+
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+}
+.linkButton:hover{
+    background-color: #2ecc71;
+    color:#fff;
+}
