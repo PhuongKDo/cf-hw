@@ -7,7 +7,6 @@
     <title>Cold Fusion Test</title>
   </head>
   <body>
-        <!-- restrict form's input field to numbers only -->
     <form id="num_form"  class="box" name="num_form" method="post" action="/cf_hw/page2.cfm"> <!-- action goes to page2 -->
         <p class="line anim-typewriter">Multiply numbers!</p>
         <!-- ask for the first number -->
