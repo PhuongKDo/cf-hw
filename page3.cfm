@@ -23,11 +23,10 @@
             <p style="font-size:40px;">
                 #result# 
             </p>
-            <!-- direct to page4 when text is click -->
+            <!-- direct to page4 when text is clicked -->
             <a href="/cf_hw/page4.cfm" class="linkButton" style="font-size:25px;"><i class="material-icons">thumb_up</i> Click for coolness!</a>
       </cfoutput>
     </form>
-
   </body>
 </html>
 
